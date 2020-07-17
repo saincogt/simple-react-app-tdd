@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
+import ReastaurantListPage from './ReastaurantListPage';
 
 const App = () => {
-	const [name, setName] = useState('viewers');
-	return <div className='hello'>Hello, {name}!</div>;
+	return (
+		<div className='hello'>
+			Hello, viewers!
+			<ReastaurantListPage />
+		</div>
+	);
 };
 
 export default App;
